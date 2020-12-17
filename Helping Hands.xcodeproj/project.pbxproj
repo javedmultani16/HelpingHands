@@ -1,0 +1,1264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090BF00C2494172900D98E7B /* CompanyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BF00B2494172900D98E7B /* CompanyHomeViewController.swift */; };
+		0935EB2E24A6266F0002A3DE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0935EB2D24A6266F0002A3DE /* SettingsViewController.swift */; };
+		0935EB3024A628B50002A3DE /* aboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0935EB2F24A628B50002A3DE /* aboutUsViewController.swift */; };
+		0935EB3224A62B8E0002A3DE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0935EB3124A62B8E0002A3DE /* ProfileViewController.swift */; };
+		0935EB3424A7C7480002A3DE /* ProfileSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0935EB3324A7C7480002A3DE /* ProfileSuccessViewController.swift */; };
+		0965F0DF249E6A0300B87171 /* TaskSuccessfullyAddedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965F0DE249E6A0300B87171 /* TaskSuccessfullyAddedViewController.swift */; };
+		0965F0E4249E9EF500B87171 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965F0E3249E9EF500B87171 /* TaskListViewController.swift */; };
+		0965F0EC249EA14000B87171 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965F0EA249EA14000B87171 /* TaskTableViewCell.swift */; };
+		0965F0ED249EA14000B87171 /* TaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0965F0EB249EA14000B87171 /* TaskTableViewCell.xib */; };
+		09A090F324A7F4CC0030D873 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09A090F224A7F4CC0030D873 /* GoogleService-Info.plist */; };
+		09B011262490C2AC00547C38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B011252490C2AC00547C38 /* AppDelegate.swift */; };
+		09B0112A2490C2AC00547C38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B011292490C2AC00547C38 /* ViewController.swift */; };
+		09B011302490C2AC00547C38 /* Helping_Hands.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09B0112E2490C2AC00547C38 /* Helping_Hands.xcdatamodeld */; };
+		09B011322490C2B200547C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B011312490C2B200547C38 /* Assets.xcassets */; };
+		09B011352490C2B200547C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B011332490C2B200547C38 /* LaunchScreen.storyboard */; };
+		09B012022490C58C00547C38 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B011E62490C58C00547C38 /* SignupViewController.swift */; };
+		09B012032490C58C00547C38 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B011E82490C58C00547C38 /* ImageCollectionViewCell.xib */; };
+		09B012052490C58C00547C38 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B011EA2490C58C00547C38 /* ImageCollectionViewCell.swift */; };
+		09B012082490C58C00547C38 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B011F12490C58C00547C38 /* BaseVC.swift */; };
+		09B012102490C58C00547C38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B011FD2490C58C00547C38 /* LoginViewController.swift */; };
+		09B012E12490C8C100547C38 /* RObjUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012862490C8C100547C38 /* RObjUser.swift */; };
+		09B012E22490C8C100547C38 /* ObjIng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012872490C8C100547C38 /* ObjIng.swift */; };
+		09B012E32490C8C100547C38 /* ObjOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012882490C8C100547C38 /* ObjOrder.swift */; };
+		09B012E42490C8C100547C38 /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B0128C2490C8C100547C38 /* UISegmentedControl+Extensions.swift */; };
+		09B012E52490C8C100547C38 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B0128D2490C8C100547C38 /* UIImageView+Extensions.swift */; };
+		09B012E62490C8C100547C38 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B0128E2490C8C100547C38 /* UIViewController+Extensions.swift */; };
+		09B012E72490C8C100547C38 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B0128F2490C8C100547C38 /* UIView+Extensions.swift */; };
+		09B012E82490C8C100547C38 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012902490C8C100547C38 /* Date+Extension.swift */; };
+		09B012E92490C8C100547C38 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012912490C8C100547C38 /* UITextView+Extensions.swift */; };
+		09B012EA2490C8C100547C38 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012922490C8C100547C38 /* UIColor+Extensions.swift */; };
+		09B012EB2490C8C100547C38 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012932490C8C100547C38 /* UIImage+Extensions.swift */; };
+		09B012EC2490C8C100547C38 /* UISearchBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012942490C8C100547C38 /* UISearchBar+Extensions.swift */; };
+		09B012ED2490C8C100547C38 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012952490C8C100547C38 /* UIApplication+Extensions.swift */; };
+		09B012EE2490C8C100547C38 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012962490C8C100547C38 /* UIAlertController+Extensions.swift */; };
+		09B012EF2490C8C100547C38 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012972490C8C100547C38 /* Optional+Extensions.swift */; };
+		09B012F02490C8C100547C38 /* Common+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012982490C8C100547C38 /* Common+Extensions.swift */; };
+		09B012F12490C8C100547C38 /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012992490C8C100547C38 /* Locale+Extensions.swift */; };
+		09B012F22490C8C100547C38 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B0129A2490C8C100547C38 /* UITextField+Extensions.swift */; };
+		09B012F32490C8C100547C38 /* AttributedTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B0129D2490C8C100547C38 /* AttributedTextBlock.swift */; };
+		09B012F42490C8C100547C38 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B0129E2490C8C100547C38 /* TextViewController.swift */; };
+		09B012F52490C8C100547C38 /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09B012A12490C8C100547C38 /* Countries.bundle */; };
+		09B012F62490C8C100547C38 /* LocaleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012A32490C8C100547C38 /* LocaleStore.swift */; };
+		09B012F72490C8C100547C38 /* LocaleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012A52490C8C100547C38 /* LocaleInfo.swift */; };
+		09B012F82490C8C100547C38 /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012A62490C8C100547C38 /* LocalePickerViewController.swift */; };
+		09B012F92490C8C100547C38 /* PhoneCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012A82490C8C100547C38 /* PhoneCodeCell.swift */; };
+		09B012FA2490C8C100547C38 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012A92490C8C100547C38 /* CurrencyCell.swift */; };
+		09B012FB2490C8C100547C38 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012AA2490C8C100547C38 /* CountryCell.swift */; };
+		09B012FC2490C8C100547C38 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012AC2490C8C100547C38 /* PickerViewViewController.swift */; };
+		09B012FD2490C8C100547C38 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012AE2490C8C100547C38 /* DatePickerViewController.swift */; };
+		09B012FE2490C8C100547C38 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012B02490C8C100547C38 /* Label.swift */; };
+		09B012FF2490C8C100547C38 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012B12490C8C100547C38 /* SegmentedControl.swift */; };
+		09B013002490C8C100547C38 /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012B22490C8C100547C38 /* GradientSlider.swift */; };
+		09B013012490C8C100547C38 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012B32490C8C100547C38 /* TextField.swift */; };
+		09B013022490C8C100547C38 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012B42490C8C100547C38 /* Button.swift */; };
+		09B013032490C8C100547C38 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012B62490C8C100547C38 /* RealmHelper.swift */; };
+		09B013042490C8C100547C38 /* NSThreadClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012B92490C8C100547C38 /* NSThreadClass.swift */; };
+		09B013052490C8C100547C38 /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012BB2490C8C100547C38 /* CustomSearchController.swift */; };
+		09B013062490C8C100547C38 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012BC2490C8C100547C38 /* CustomSearchBar.swift */; };
+		09B013072490C8C100547C38 /* DateFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012BD2490C8C100547C38 /* DateFormats.swift */; };
+		09B013082490C8C100547C38 /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012BE2490C8C100547C38 /* NumberExtension.swift */; };
+		09B013092490C8C100547C38 /* UICollectionView+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012BF2490C8C100547C38 /* UICollectionView+Placeholder.swift */; };
+		09B0130A2490C8C100547C38 /* StringClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012C02490C8C100547C38 /* StringClass.swift */; };
+		09B0130B2490C8C100547C38 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012C12490C8C100547C38 /* ArrayExtension.swift */; };
+		09B0130C2490C8C100547C38 /* UITableView+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012C22490C8C100547C38 /* UITableView+Placeholder.swift */; };
+		09B0130D2490C8C100547C38 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012C32490C8C100547C38 /* AlertView.swift */; };
+		09B0130E2490C8C100547C38 /* UIImageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012C42490C8C100547C38 /* UIImageColor.swift */; };
+		09B0130F2490C8C100547C38 /* NSFileManagerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012C52490C8C100547C38 /* NSFileManagerClass.swift */; };
+		09B013102490C8C100547C38 /* Viewclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012C62490C8C100547C38 /* Viewclass.swift */; };
+		09B013112490C8C100547C38 /* UINavigationController+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012C72490C8C100547C38 /* UINavigationController+Animation.swift */; };
+		09B013122490C8C100547C38 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012C92490C8C100547C38 /* Constant.swift */; };
+		09B013132490C8C100547C38 /* MessageString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012CB2490C8C100547C38 /* MessageString.swift */; };
+		09B013142490C8C100547C38 /* HelperFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012CC2490C8C100547C38 /* HelperFunction.swift */; };
+		09B013152490C8C100547C38 /* DefaulValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012CE2490C8C100547C38 /* DefaulValues.swift */; };
+		09B013162490C8C100547C38 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D02490C8C100547C38 /* Roboto-Medium.ttf */; };
+		09B013172490C8C100547C38 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D12490C8C100547C38 /* Roboto-Light.ttf */; };
+		09B013182490C8C100547C38 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D22490C8C100547C38 /* Roboto-Regular.ttf */; };
+		09B013192490C8C100547C38 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D32490C8C100547C38 /* SF-Pro-Display-Bold.otf */; };
+		09B0131A2490C8C100547C38 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D42490C8C100547C38 /* Roboto-MediumItalic.ttf */; };
+		09B0131B2490C8C100547C38 /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D52490C8C100547C38 /* SF-Pro-Text-Light.otf */; };
+		09B0131C2490C8C100547C38 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D62490C8C100547C38 /* SF-Pro-Text-Regular.otf */; };
+		09B0131D2490C8C100547C38 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D72490C8C100547C38 /* SF-Pro-Text-Bold.otf */; };
+		09B0131E2490C8C100547C38 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D82490C8C100547C38 /* Roboto-BoldItalic.ttf */; };
+		09B0131F2490C8C100547C38 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012D92490C8C100547C38 /* Roboto-LightItalic.ttf */; };
+		09B013202490C8C100547C38 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012DA2490C8C100547C38 /* Roboto-Italic.ttf */; };
+		09B013212490C8C100547C38 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012DB2490C8C100547C38 /* Roboto-Bold.ttf */; };
+		09B013222490C8C100547C38 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09B012DC2490C8C100547C38 /* SF-Pro-Text-Medium.otf */; };
+		09B013232490C8C100547C38 /* HorizontalGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012DE2490C8C100547C38 /* HorizontalGradientView.swift */; };
+		09B013242490C8C100547C38 /* VerticalGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012DF2490C8C100547C38 /* VerticalGradientView.swift */; };
+		09B013252490C8C100547C38 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B012E02490C8C100547C38 /* RadialGradientView.swift */; };
+		09B013272490C93B00547C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B013262490C93B00547C38 /* Main.storyboard */; };
+		09C60498249421DD00D26B44 /* JobSeekerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C60497249421DD00D26B44 /* JobSeekerHomeViewController.swift */; };
+		09C6049B24942BD300D26B44 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6049A24942BD300D26B44 /* CategoryViewController.swift */; };
+		09C604A12495279900D26B44 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C604A02495279800D26B44 /* AddTaskViewController.swift */; };
+		09EB2D0B249EAF29005EF192 /* Montserrat-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CE6249EAF29005EF192 /* Montserrat-MediumItalic.otf */; };
+		09EB2D0C249EAF29005EF192 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CE7249EAF29005EF192 /* Montserrat-Bold.otf */; };
+		09EB2D0D249EAF29005EF192 /* Montserrat-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CE8249EAF29005EF192 /* Montserrat-BlackItalic.otf */; };
+		09EB2D0E249EAF29005EF192 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CE9249EAF29005EF192 /* SIL Open Font License.txt */; };
+		09EB2D0F249EAF29005EF192 /* MontserratAlternates-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CEA249EAF29005EF192 /* MontserratAlternates-Black.otf */; };
+		09EB2D10249EAF29005EF192 /* MontserratAlternates-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CEB249EAF29005EF192 /* MontserratAlternates-LightItalic.otf */; };
+		09EB2D11249EAF29005EF192 /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CEC249EAF29005EF192 /* MontserratAlternates-Medium.otf */; };
+		09EB2D12249EAF29005EF192 /* Montserrat-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CED249EAF29005EF192 /* Montserrat-BoldItalic.otf */; };
+		09EB2D13249EAF29005EF192 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CEE249EAF29005EF192 /* Montserrat-Light.otf */; };
+		09EB2D14249EAF29005EF192 /* Montserrat-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CEF249EAF29005EF192 /* Montserrat-ThinItalic.otf */; };
+		09EB2D15249EAF29005EF192 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF0249EAF29005EF192 /* Montserrat-Thin.otf */; };
+		09EB2D16249EAF29005EF192 /* MontserratAlternates-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF1249EAF29005EF192 /* MontserratAlternates-MediumItalic.otf */; };
+		09EB2D17249EAF29005EF192 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF2249EAF29005EF192 /* Montserrat-ExtraLight.otf */; };
+		09EB2D18249EAF29005EF192 /* MontserratAlternates-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF3249EAF29005EF192 /* MontserratAlternates-BlackItalic.otf */; };
+		09EB2D19249EAF29005EF192 /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF4249EAF29005EF192 /* MontserratAlternates-Bold.otf */; };
+		09EB2D1A249EAF29005EF192 /* MontserratAlternates-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF5249EAF29005EF192 /* MontserratAlternates-ExtraLightItalic.otf */; };
+		09EB2D1B249EAF29005EF192 /* MontserratAlternates-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF6249EAF29005EF192 /* MontserratAlternates-Thin.otf */; };
+		09EB2D1C249EAF29005EF192 /* Montserrat-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF7249EAF29005EF192 /* Montserrat-LightItalic.otf */; };
+		09EB2D1D249EAF29005EF192 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF8249EAF29005EF192 /* Montserrat-Medium.otf */; };
+		09EB2D1E249EAF29005EF192 /* MontserratAlternates-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CF9249EAF29005EF192 /* MontserratAlternates-SemiBoldItalic.otf */; };
+		09EB2D1F249EAF29005EF192 /* Montserrat-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CFA249EAF29005EF192 /* Montserrat-SemiBoldItalic.otf */; };
+		09EB2D20249EAF29005EF192 /* Montserrat-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CFB249EAF29005EF192 /* Montserrat-ExtraBoldItalic.otf */; };
+		09EB2D21249EAF29005EF192 /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CFC249EAF29005EF192 /* Montserrat-Italic.otf */; };
+		09EB2D22249EAF29005EF192 /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CFD249EAF29005EF192 /* MontserratAlternates-SemiBold.otf */; };
+		09EB2D23249EAF29005EF192 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CFE249EAF29005EF192 /* Montserrat-Regular.otf */; };
+		09EB2D24249EAF29005EF192 /* MontserratAlternates-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2CFF249EAF29005EF192 /* MontserratAlternates-ExtraBold.otf */; };
+		09EB2D25249EAF29005EF192 /* MontserratAlternates-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D00249EAF29005EF192 /* MontserratAlternates-BoldItalic.otf */; };
+		09EB2D26249EAF29005EF192 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D01249EAF29005EF192 /* Montserrat-ExtraBold.otf */; };
+		09EB2D27249EAF29005EF192 /* Montserrat-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D02249EAF29005EF192 /* Montserrat-ExtraLightItalic.otf */; };
+		09EB2D28249EAF29005EF192 /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D03249EAF29005EF192 /* MontserratAlternates-Light.otf */; };
+		09EB2D29249EAF29005EF192 /* MontserratAlternates-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D04249EAF29005EF192 /* MontserratAlternates-ExtraLight.otf */; };
+		09EB2D2A249EAF29005EF192 /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D05249EAF29005EF192 /* MontserratAlternates-Regular.otf */; };
+		09EB2D2B249EAF29005EF192 /* MontserratAlternates-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D06249EAF29005EF192 /* MontserratAlternates-ThinItalic.otf */; };
+		09EB2D2C249EAF29005EF192 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D07249EAF29005EF192 /* Montserrat-Black.otf */; };
+		09EB2D2D249EAF29005EF192 /* MontserratAlternates-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D08249EAF29005EF192 /* MontserratAlternates-ExtraBoldItalic.otf */; };
+		09EB2D2E249EAF29005EF192 /* MontserratAlternates-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D09249EAF29005EF192 /* MontserratAlternates-Italic.otf */; };
+		09EB2D2F249EAF29005EF192 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D0A249EAF29005EF192 /* Montserrat-SemiBold.otf */; };
+		09EB2D32249ED56B005EF192 /* TaskDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09EB2D30249ED56B005EF192 /* TaskDetailsTableViewCell.xib */; };
+		09EB2D33249ED56B005EF192 /* TaskDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EB2D31249ED56B005EF192 /* TaskDetailsTableViewCell.swift */; };
+		09EB2D35249ED586005EF192 /* TaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EB2D34249ED586005EF192 /* TaskDetailsViewController.swift */; };
+		09EB2D38249EEC3D005EF192 /* TaskAcceptedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EB2D37249EEC3D005EF192 /* TaskAcceptedViewController.swift */; };
+		09EB2D3A249F3D20005EF192 /* TaskFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EB2D39249F3D20005EF192 /* TaskFilterViewController.swift */; };
+		3F53CA18B4C88731B13718D8 /* Pods_Helping_Hands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9923C688F0EFDA1B46D8C38 /* Pods_Helping_Hands.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		090BF00B2494172900D98E7B /* CompanyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyHomeViewController.swift; sourceTree = "<group>"; };
+		0935EB2D24A6266F0002A3DE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0935EB2F24A628B50002A3DE /* aboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUsViewController.swift; sourceTree = "<group>"; };
+		0935EB3124A62B8E0002A3DE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0935EB3324A7C7480002A3DE /* ProfileSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSuccessViewController.swift; sourceTree = "<group>"; };
+		0965F0DE249E6A0300B87171 /* TaskSuccessfullyAddedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSuccessfullyAddedViewController.swift; sourceTree = "<group>"; };
+		0965F0E3249E9EF500B87171 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		0965F0EA249EA14000B87171 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		0965F0EB249EA14000B87171 /* TaskTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskTableViewCell.xib; sourceTree = "<group>"; };
+		09A090F224A7F4CC0030D873 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09B011222490C2AC00547C38 /* Helping Hands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helping Hands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B011252490C2AC00547C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09B011292490C2AC00547C38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09B0112F2490C2AC00547C38 /* Helping_Hands.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Helping_Hands.xcdatamodel; sourceTree = "<group>"; };
+		09B011312490C2B200547C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B011342490C2B200547C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09B011362490C2B200547C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B011E62490C58C00547C38 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		09B011E82490C58C00547C38 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		09B011EA2490C58C00547C38 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		09B011F12490C58C00547C38 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		09B011FD2490C58C00547C38 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		09B012862490C8C100547C38 /* RObjUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RObjUser.swift; sourceTree = "<group>"; };
+		09B012872490C8C100547C38 /* ObjIng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjIng.swift; sourceTree = "<group>"; };
+		09B012882490C8C100547C38 /* ObjOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjOrder.swift; sourceTree = "<group>"; };
+		09B0128C2490C8C100547C38 /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
+		09B0128D2490C8C100547C38 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		09B0128E2490C8C100547C38 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		09B0128F2490C8C100547C38 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		09B012902490C8C100547C38 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		09B012912490C8C100547C38 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		09B012922490C8C100547C38 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		09B012932490C8C100547C38 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		09B012942490C8C100547C38 /* UISearchBar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extensions.swift"; sourceTree = "<group>"; };
+		09B012952490C8C100547C38 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		09B012962490C8C100547C38 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		09B012972490C8C100547C38 /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		09B012982490C8C100547C38 /* Common+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common+Extensions.swift"; sourceTree = "<group>"; };
+		09B012992490C8C100547C38 /* Locale+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
+		09B0129A2490C8C100547C38 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		09B0129D2490C8C100547C38 /* AttributedTextBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextBlock.swift; sourceTree = "<group>"; };
+		09B0129E2490C8C100547C38 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		09B012A12490C8C100547C38 /* Countries.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Countries.bundle; sourceTree = "<group>"; };
+		09B012A32490C8C100547C38 /* LocaleStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleStore.swift; sourceTree = "<group>"; };
+		09B012A52490C8C100547C38 /* LocaleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleInfo.swift; sourceTree = "<group>"; };
+		09B012A62490C8C100547C38 /* LocalePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalePickerViewController.swift; sourceTree = "<group>"; };
+		09B012A82490C8C100547C38 /* PhoneCodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCodeCell.swift; sourceTree = "<group>"; };
+		09B012A92490C8C100547C38 /* CurrencyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		09B012AA2490C8C100547C38 /* CountryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		09B012AC2490C8C100547C38 /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		09B012AE2490C8C100547C38 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		09B012B02490C8C100547C38 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		09B012B12490C8C100547C38 /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		09B012B22490C8C100547C38 /* GradientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		09B012B32490C8C100547C38 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		09B012B42490C8C100547C38 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		09B012B62490C8C100547C38 /* RealmHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		09B012B92490C8C100547C38 /* NSThreadClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSThreadClass.swift; sourceTree = "<group>"; };
+		09B012BB2490C8C100547C38 /* CustomSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
+		09B012BC2490C8C100547C38 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		09B012BD2490C8C100547C38 /* DateFormats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormats.swift; sourceTree = "<group>"; };
+		09B012BE2490C8C100547C38 /* NumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
+		09B012BF2490C8C100547C38 /* UICollectionView+Placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Placeholder.swift"; sourceTree = "<group>"; };
+		09B012C02490C8C100547C38 /* StringClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringClass.swift; sourceTree = "<group>"; };
+		09B012C12490C8C100547C38 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		09B012C22490C8C100547C38 /* UITableView+Placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Placeholder.swift"; sourceTree = "<group>"; };
+		09B012C32490C8C100547C38 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		09B012C42490C8C100547C38 /* UIImageColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageColor.swift; sourceTree = "<group>"; };
+		09B012C52490C8C100547C38 /* NSFileManagerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManagerClass.swift; sourceTree = "<group>"; };
+		09B012C62490C8C100547C38 /* Viewclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewclass.swift; sourceTree = "<group>"; };
+		09B012C72490C8C100547C38 /* UINavigationController+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Animation.swift"; sourceTree = "<group>"; };
+		09B012C92490C8C100547C38 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		09B012CA2490C8C100547C38 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		09B012CB2490C8C100547C38 /* MessageString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageString.swift; sourceTree = "<group>"; };
+		09B012CC2490C8C100547C38 /* HelperFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunction.swift; sourceTree = "<group>"; };
+		09B012CE2490C8C100547C38 /* DefaulValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaulValues.swift; sourceTree = "<group>"; };
+		09B012D02490C8C100547C38 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		09B012D12490C8C100547C38 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		09B012D22490C8C100547C38 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		09B012D32490C8C100547C38 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		09B012D42490C8C100547C38 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		09B012D52490C8C100547C38 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		09B012D62490C8C100547C38 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		09B012D72490C8C100547C38 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		09B012D82490C8C100547C38 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		09B012D92490C8C100547C38 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		09B012DA2490C8C100547C38 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		09B012DB2490C8C100547C38 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		09B012DC2490C8C100547C38 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		09B012DE2490C8C100547C38 /* HorizontalGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalGradientView.swift; sourceTree = "<group>"; };
+		09B012DF2490C8C100547C38 /* VerticalGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalGradientView.swift; sourceTree = "<group>"; };
+		09B012E02490C8C100547C38 /* RadialGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
+		09B013262490C93B00547C38 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		09C60497249421DD00D26B44 /* JobSeekerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSeekerHomeViewController.swift; sourceTree = "<group>"; };
+		09C6049A24942BD300D26B44 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		09C604A02495279800D26B44 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		09EB2CE6249EAF29005EF192 /* Montserrat-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.otf"; sourceTree = "<group>"; };
+		09EB2CE7249EAF29005EF192 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		09EB2CE8249EAF29005EF192 /* Montserrat-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.otf"; sourceTree = "<group>"; };
+		09EB2CE9249EAF29005EF192 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		09EB2CEA249EAF29005EF192 /* MontserratAlternates-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Black.otf"; sourceTree = "<group>"; };
+		09EB2CEB249EAF29005EF192 /* MontserratAlternates-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-LightItalic.otf"; sourceTree = "<group>"; };
+		09EB2CEC249EAF29005EF192 /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium.otf"; sourceTree = "<group>"; };
+		09EB2CED249EAF29005EF192 /* Montserrat-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.otf"; sourceTree = "<group>"; };
+		09EB2CEE249EAF29005EF192 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		09EB2CEF249EAF29005EF192 /* Montserrat-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.otf"; sourceTree = "<group>"; };
+		09EB2CF0249EAF29005EF192 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		09EB2CF1249EAF29005EF192 /* MontserratAlternates-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-MediumItalic.otf"; sourceTree = "<group>"; };
+		09EB2CF2249EAF29005EF192 /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		09EB2CF3249EAF29005EF192 /* MontserratAlternates-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-BlackItalic.otf"; sourceTree = "<group>"; };
+		09EB2CF4249EAF29005EF192 /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.otf"; sourceTree = "<group>"; };
+		09EB2CF5249EAF29005EF192 /* MontserratAlternates-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		09EB2CF6249EAF29005EF192 /* MontserratAlternates-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Thin.otf"; sourceTree = "<group>"; };
+		09EB2CF7249EAF29005EF192 /* Montserrat-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.otf"; sourceTree = "<group>"; };
+		09EB2CF8249EAF29005EF192 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		09EB2CF9249EAF29005EF192 /* MontserratAlternates-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		09EB2CFA249EAF29005EF192 /* Montserrat-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		09EB2CFB249EAF29005EF192 /* Montserrat-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		09EB2CFC249EAF29005EF192 /* Montserrat-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.otf"; sourceTree = "<group>"; };
+		09EB2CFD249EAF29005EF192 /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
+		09EB2CFE249EAF29005EF192 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		09EB2CFF249EAF29005EF192 /* MontserratAlternates-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBold.otf"; sourceTree = "<group>"; };
+		09EB2D00249EAF29005EF192 /* MontserratAlternates-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-BoldItalic.otf"; sourceTree = "<group>"; };
+		09EB2D01249EAF29005EF192 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		09EB2D02249EAF29005EF192 /* Montserrat-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		09EB2D03249EAF29005EF192 /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		09EB2D04249EAF29005EF192 /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; };
+		09EB2D05249EAF29005EF192 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+		09EB2D06249EAF29005EF192 /* MontserratAlternates-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ThinItalic.otf"; sourceTree = "<group>"; };
+		09EB2D07249EAF29005EF192 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		09EB2D08249EAF29005EF192 /* MontserratAlternates-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		09EB2D09249EAF29005EF192 /* MontserratAlternates-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Italic.otf"; sourceTree = "<group>"; };
+		09EB2D0A249EAF29005EF192 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		09EB2D30249ED56B005EF192 /* TaskDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		09EB2D31249ED56B005EF192 /* TaskDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		09EB2D34249ED586005EF192 /* TaskDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewController.swift; sourceTree = "<group>"; };
+		09EB2D37249EEC3D005EF192 /* TaskAcceptedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAcceptedViewController.swift; sourceTree = "<group>"; };
+		09EB2D39249F3D20005EF192 /* TaskFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFilterViewController.swift; sourceTree = "<group>"; };
+		39D1FA73AB474F0EB20F8E89 /* Pods-Helping Hands.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helping Hands.release.xcconfig"; path = "Target Support Files/Pods-Helping Hands/Pods-Helping Hands.release.xcconfig"; sourceTree = "<group>"; };
+		4278066C3FCD09D6F94B96B3 /* Pods-Helping Hands.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helping Hands.debug.xcconfig"; path = "Target Support Files/Pods-Helping Hands/Pods-Helping Hands.debug.xcconfig"; sourceTree = "<group>"; };
+		D9923C688F0EFDA1B46D8C38 /* Pods_Helping_Hands.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Helping_Hands.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B0111F2490C2AC00547C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F53CA18B4C88731B13718D8 /* Pods_Helping_Hands.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090BF009249416E900D98E7B /* JobProvider */ = {
+			isa = PBXGroup;
+			children = (
+				0965F0E2249E9EE700B87171 /* TaskList */,
+				09C6049F2495278800D26B44 /* AddTask */,
+				090BF00A2494170100D98E7B /* JobProviderHome */,
+			);
+			path = JobProvider;
+			sourceTree = "<group>";
+		};
+		090BF00A2494170100D98E7B /* JobProviderHome */ = {
+			isa = PBXGroup;
+			children = (
+				090BF00B2494172900D98E7B /* CompanyHomeViewController.swift */,
+			);
+			path = JobProviderHome;
+			sourceTree = "<group>";
+		};
+		0935EB2C24A626550002A3DE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0935EB2D24A6266F0002A3DE /* SettingsViewController.swift */,
+				0935EB2F24A628B50002A3DE /* aboutUsViewController.swift */,
+				0935EB3124A62B8E0002A3DE /* ProfileViewController.swift */,
+				0935EB3324A7C7480002A3DE /* ProfileSuccessViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0965F0E2249E9EE700B87171 /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				0965F0E5249E9FEA00B87171 /* TaskCell */,
+				0965F0E3249E9EF500B87171 /* TaskListViewController.swift */,
+				09EB2D34249ED586005EF192 /* TaskDetailsViewController.swift */,
+				09EB2D39249F3D20005EF192 /* TaskFilterViewController.swift */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		0965F0E5249E9FEA00B87171 /* TaskCell */ = {
+			isa = PBXGroup;
+			children = (
+				09EB2D31249ED56B005EF192 /* TaskDetailsTableViewCell.swift */,
+				09EB2D30249ED56B005EF192 /* TaskDetailsTableViewCell.xib */,
+				0965F0EA249EA14000B87171 /* TaskTableViewCell.swift */,
+				0965F0EB249EA14000B87171 /* TaskTableViewCell.xib */,
+			);
+			path = TaskCell;
+			sourceTree = "<group>";
+		};
+		09B011192490C2AC00547C38 = {
+			isa = PBXGroup;
+			children = (
+				09B011242490C2AC00547C38 /* Helping Hands */,
+				09B011232490C2AC00547C38 /* Products */,
+				10A30D8766F19E43224EA129 /* Pods */,
+				13E543382FBF44371766B3E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09B011232490C2AC00547C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B011222490C2AC00547C38 /* Helping Hands.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B011242490C2AC00547C38 /* Helping Hands */ = {
+			isa = PBXGroup;
+			children = (
+				09B012842490C8C100547C38 /* Model */,
+				09B011DE2490C58C00547C38 /* Controller */,
+				09B011252490C2AC00547C38 /* AppDelegate.swift */,
+				09B011292490C2AC00547C38 /* ViewController.swift */,
+				09B011312490C2B200547C38 /* Assets.xcassets */,
+				09A090F224A7F4CC0030D873 /* GoogleService-Info.plist */,
+				09B011332490C2B200547C38 /* LaunchScreen.storyboard */,
+				09B013262490C93B00547C38 /* Main.storyboard */,
+				09B011362490C2B200547C38 /* Info.plist */,
+				09B0112E2490C2AC00547C38 /* Helping_Hands.xcdatamodeld */,
+			);
+			path = "Helping Hands";
+			sourceTree = "<group>";
+		};
+		09B011DE2490C58C00547C38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0935EB2C24A626550002A3DE /* Settings */,
+				09C6049924942BB200D26B44 /* Categories */,
+				09C60495249421A600D26B44 /* JobSeeker */,
+				090BF009249416E900D98E7B /* JobProvider */,
+				09B011F02490C58C00547C38 /* BaseViewController */,
+				09B011E52490C58C00547C38 /* SignupViewController */,
+				09B011FC2490C58C00547C38 /* LoginViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09B011E52490C58C00547C38 /* SignupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				09B011E62490C58C00547C38 /* SignupViewController.swift */,
+			);
+			path = SignupViewController;
+			sourceTree = "<group>";
+		};
+		09B011F02490C58C00547C38 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				09B011F12490C58C00547C38 /* BaseVC.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		09B011FC2490C58C00547C38 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				09B011FD2490C58C00547C38 /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		09B012842490C8C100547C38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09B012852490C8C100547C38 /* RealmObjects */,
+				09B012892490C8C100547C38 /* External Library */,
+				09B012B52490C8C100547C38 /* RealmClass */,
+				09B012B72490C8C100547C38 /* CustomObjects */,
+				09B012B82490C8C100547C38 /* utilities */,
+				09B012C82490C8C100547C38 /* Constant */,
+				09B012CD2490C8C100547C38 /* DefaultClasses */,
+				09B012CF2490C8C100547C38 /* Font */,
+				09B012DD2490C8C100547C38 /* GradientView */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09B012852490C8C100547C38 /* RealmObjects */ = {
+			isa = PBXGroup;
+			children = (
+				09B012862490C8C100547C38 /* RObjUser.swift */,
+				09B012872490C8C100547C38 /* ObjIng.swift */,
+				09B012882490C8C100547C38 /* ObjOrder.swift */,
+			);
+			path = RealmObjects;
+			sourceTree = "<group>";
+		};
+		09B012892490C8C100547C38 /* External Library */ = {
+			isa = PBXGroup;
+			children = (
+				09B0128A2490C8C100547C38 /* Source */,
+			);
+			path = "External Library";
+			sourceTree = "<group>";
+		};
+		09B0128A2490C8C100547C38 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				09B0128B2490C8C100547C38 /* Extensions */,
+				09B0129B2490C8C100547C38 /* Viewers */,
+				09B0129F2490C8C100547C38 /* Pickers */,
+				09B012AF2490C8C100547C38 /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		09B0128B2490C8C100547C38 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				09B0128C2490C8C100547C38 /* UISegmentedControl+Extensions.swift */,
+				09B0128D2490C8C100547C38 /* UIImageView+Extensions.swift */,
+				09B0128E2490C8C100547C38 /* UIViewController+Extensions.swift */,
+				09B0128F2490C8C100547C38 /* UIView+Extensions.swift */,
+				09B012902490C8C100547C38 /* Date+Extension.swift */,
+				09B012912490C8C100547C38 /* UITextView+Extensions.swift */,
+				09B012922490C8C100547C38 /* UIColor+Extensions.swift */,
+				09B012932490C8C100547C38 /* UIImage+Extensions.swift */,
+				09B012942490C8C100547C38 /* UISearchBar+Extensions.swift */,
+				09B012952490C8C100547C38 /* UIApplication+Extensions.swift */,
+				09B012962490C8C100547C38 /* UIAlertController+Extensions.swift */,
+				09B012972490C8C100547C38 /* Optional+Extensions.swift */,
+				09B012982490C8C100547C38 /* Common+Extensions.swift */,
+				09B012992490C8C100547C38 /* Locale+Extensions.swift */,
+				09B0129A2490C8C100547C38 /* UITextField+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		09B0129B2490C8C100547C38 /* Viewers */ = {
+			isa = PBXGroup;
+			children = (
+				09B0129C2490C8C100547C38 /* Models */,
+				09B0129E2490C8C100547C38 /* TextViewController.swift */,
+			);
+			path = Viewers;
+			sourceTree = "<group>";
+		};
+		09B0129C2490C8C100547C38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09B0129D2490C8C100547C38 /* AttributedTextBlock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09B0129F2490C8C100547C38 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				09B012A02490C8C100547C38 /* Locale */,
+				09B012AB2490C8C100547C38 /* PickerView */,
+				09B012AD2490C8C100547C38 /* Date */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		09B012A02490C8C100547C38 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				09B012A12490C8C100547C38 /* Countries.bundle */,
+				09B012A22490C8C100547C38 /* Managers */,
+				09B012A42490C8C100547C38 /* Models */,
+				09B012A62490C8C100547C38 /* LocalePickerViewController.swift */,
+				09B012A72490C8C100547C38 /* Views */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		09B012A22490C8C100547C38 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				09B012A32490C8C100547C38 /* LocaleStore.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		09B012A42490C8C100547C38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09B012A52490C8C100547C38 /* LocaleInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09B012A72490C8C100547C38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09B012A82490C8C100547C38 /* PhoneCodeCell.swift */,
+				09B012A92490C8C100547C38 /* CurrencyCell.swift */,
+				09B012AA2490C8C100547C38 /* CountryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09B012AB2490C8C100547C38 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				09B012AC2490C8C100547C38 /* PickerViewViewController.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		09B012AD2490C8C100547C38 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				09B012AE2490C8C100547C38 /* DatePickerViewController.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		09B012AF2490C8C100547C38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09B012B02490C8C100547C38 /* Label.swift */,
+				09B012B12490C8C100547C38 /* SegmentedControl.swift */,
+				09B012B22490C8C100547C38 /* GradientSlider.swift */,
+				09B012B32490C8C100547C38 /* TextField.swift */,
+				09B012B42490C8C100547C38 /* Button.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09B012B52490C8C100547C38 /* RealmClass */ = {
+			isa = PBXGroup;
+			children = (
+				09B012B62490C8C100547C38 /* RealmHelper.swift */,
+			);
+			path = RealmClass;
+			sourceTree = "<group>";
+		};
+		09B012B72490C8C100547C38 /* CustomObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomObjects;
+			sourceTree = "<group>";
+		};
+		09B012B82490C8C100547C38 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				09B012B92490C8C100547C38 /* NSThreadClass.swift */,
+				09B012BA2490C8C100547C38 /* UISearchBarController */,
+				09B012BD2490C8C100547C38 /* DateFormats.swift */,
+				09B012BE2490C8C100547C38 /* NumberExtension.swift */,
+				09B012BF2490C8C100547C38 /* UICollectionView+Placeholder.swift */,
+				09B012C02490C8C100547C38 /* StringClass.swift */,
+				09B012C12490C8C100547C38 /* ArrayExtension.swift */,
+				09B012C22490C8C100547C38 /* UITableView+Placeholder.swift */,
+				09B012C32490C8C100547C38 /* AlertView.swift */,
+				09B012C42490C8C100547C38 /* UIImageColor.swift */,
+				09B012C52490C8C100547C38 /* NSFileManagerClass.swift */,
+				09B012C62490C8C100547C38 /* Viewclass.swift */,
+				09B012C72490C8C100547C38 /* UINavigationController+Animation.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		09B012BA2490C8C100547C38 /* UISearchBarController */ = {
+			isa = PBXGroup;
+			children = (
+				09B012BB2490C8C100547C38 /* CustomSearchController.swift */,
+				09B012BC2490C8C100547C38 /* CustomSearchBar.swift */,
+			);
+			path = UISearchBarController;
+			sourceTree = "<group>";
+		};
+		09B012C82490C8C100547C38 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				09B012C92490C8C100547C38 /* Constant.swift */,
+				09B012CA2490C8C100547C38 /* Header.h */,
+				09B012CB2490C8C100547C38 /* MessageString.swift */,
+				09B012CC2490C8C100547C38 /* HelperFunction.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		09B012CD2490C8C100547C38 /* DefaultClasses */ = {
+			isa = PBXGroup;
+			children = (
+				09B012CE2490C8C100547C38 /* DefaulValues.swift */,
+			);
+			path = DefaultClasses;
+			sourceTree = "<group>";
+		};
+		09B012CF2490C8C100547C38 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				09EB2CE5249EAF29005EF192 /* UIFonts */,
+				09B012D02490C8C100547C38 /* Roboto-Medium.ttf */,
+				09B012D12490C8C100547C38 /* Roboto-Light.ttf */,
+				09B012D22490C8C100547C38 /* Roboto-Regular.ttf */,
+				09B012D32490C8C100547C38 /* SF-Pro-Display-Bold.otf */,
+				09B012D42490C8C100547C38 /* Roboto-MediumItalic.ttf */,
+				09B012D52490C8C100547C38 /* SF-Pro-Text-Light.otf */,
+				09B012D62490C8C100547C38 /* SF-Pro-Text-Regular.otf */,
+				09B012D72490C8C100547C38 /* SF-Pro-Text-Bold.otf */,
+				09B012D82490C8C100547C38 /* Roboto-BoldItalic.ttf */,
+				09B012D92490C8C100547C38 /* Roboto-LightItalic.ttf */,
+				09B012DA2490C8C100547C38 /* Roboto-Italic.ttf */,
+				09B012DB2490C8C100547C38 /* Roboto-Bold.ttf */,
+				09B012DC2490C8C100547C38 /* SF-Pro-Text-Medium.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		09B012DD2490C8C100547C38 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				09B012DE2490C8C100547C38 /* HorizontalGradientView.swift */,
+				09B012DF2490C8C100547C38 /* VerticalGradientView.swift */,
+				09B012E02490C8C100547C38 /* RadialGradientView.swift */,
+			);
+			path = GradientView;
+			sourceTree = "<group>";
+		};
+		09C60495249421A600D26B44 /* JobSeeker */ = {
+			isa = PBXGroup;
+			children = (
+				09EB2D36249EEC2D005EF192 /* JobSeekerTask */,
+				09C60496249421B700D26B44 /* JobSeekerHome */,
+			);
+			path = JobSeeker;
+			sourceTree = "<group>";
+		};
+		09C60496249421B700D26B44 /* JobSeekerHome */ = {
+			isa = PBXGroup;
+			children = (
+				09C60497249421DD00D26B44 /* JobSeekerHomeViewController.swift */,
+			);
+			path = JobSeekerHome;
+			sourceTree = "<group>";
+		};
+		09C6049924942BB200D26B44 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				09C6049D24942C2200D26B44 /* CollectionCellCategory */,
+				09C6049A24942BD300D26B44 /* CategoryViewController.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		09C6049D24942C2200D26B44 /* CollectionCellCategory */ = {
+			isa = PBXGroup;
+			children = (
+				09B011E82490C58C00547C38 /* ImageCollectionViewCell.xib */,
+				09B011EA2490C58C00547C38 /* ImageCollectionViewCell.swift */,
+			);
+			path = CollectionCellCategory;
+			sourceTree = "<group>";
+		};
+		09C6049F2495278800D26B44 /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				09C604A02495279800D26B44 /* AddTaskViewController.swift */,
+				0965F0DE249E6A0300B87171 /* TaskSuccessfullyAddedViewController.swift */,
+			);
+			path = AddTask;
+			sourceTree = "<group>";
+		};
+		09EB2CE5249EAF29005EF192 /* UIFonts */ = {
+			isa = PBXGroup;
+			children = (
+				09EB2CE6249EAF29005EF192 /* Montserrat-MediumItalic.otf */,
+				09EB2CE7249EAF29005EF192 /* Montserrat-Bold.otf */,
+				09EB2CE8249EAF29005EF192 /* Montserrat-BlackItalic.otf */,
+				09EB2CE9249EAF29005EF192 /* SIL Open Font License.txt */,
+				09EB2CEA249EAF29005EF192 /* MontserratAlternates-Black.otf */,
+				09EB2CEB249EAF29005EF192 /* MontserratAlternates-LightItalic.otf */,
+				09EB2CEC249EAF29005EF192 /* MontserratAlternates-Medium.otf */,
+				09EB2CED249EAF29005EF192 /* Montserrat-BoldItalic.otf */,
+				09EB2CEE249EAF29005EF192 /* Montserrat-Light.otf */,
+				09EB2CEF249EAF29005EF192 /* Montserrat-ThinItalic.otf */,
+				09EB2CF0249EAF29005EF192 /* Montserrat-Thin.otf */,
+				09EB2CF1249EAF29005EF192 /* MontserratAlternates-MediumItalic.otf */,
+				09EB2CF2249EAF29005EF192 /* Montserrat-ExtraLight.otf */,
+				09EB2CF3249EAF29005EF192 /* MontserratAlternates-BlackItalic.otf */,
+				09EB2CF4249EAF29005EF192 /* MontserratAlternates-Bold.otf */,
+				09EB2CF5249EAF29005EF192 /* MontserratAlternates-ExtraLightItalic.otf */,
+				09EB2CF6249EAF29005EF192 /* MontserratAlternates-Thin.otf */,
+				09EB2CF7249EAF29005EF192 /* Montserrat-LightItalic.otf */,
+				09EB2CF8249EAF29005EF192 /* Montserrat-Medium.otf */,
+				09EB2CF9249EAF29005EF192 /* MontserratAlternates-SemiBoldItalic.otf */,
+				09EB2CFA249EAF29005EF192 /* Montserrat-SemiBoldItalic.otf */,
+				09EB2CFB249EAF29005EF192 /* Montserrat-ExtraBoldItalic.otf */,
+				09EB2CFC249EAF29005EF192 /* Montserrat-Italic.otf */,
+				09EB2CFD249EAF29005EF192 /* MontserratAlternates-SemiBold.otf */,
+				09EB2CFE249EAF29005EF192 /* Montserrat-Regular.otf */,
+				09EB2CFF249EAF29005EF192 /* MontserratAlternates-ExtraBold.otf */,
+				09EB2D00249EAF29005EF192 /* MontserratAlternates-BoldItalic.otf */,
+				09EB2D01249EAF29005EF192 /* Montserrat-ExtraBold.otf */,
+				09EB2D02249EAF29005EF192 /* Montserrat-ExtraLightItalic.otf */,
+				09EB2D03249EAF29005EF192 /* MontserratAlternates-Light.otf */,
+				09EB2D04249EAF29005EF192 /* MontserratAlternates-ExtraLight.otf */,
+				09EB2D05249EAF29005EF192 /* MontserratAlternates-Regular.otf */,
+				09EB2D06249EAF29005EF192 /* MontserratAlternates-ThinItalic.otf */,
+				09EB2D07249EAF29005EF192 /* Montserrat-Black.otf */,
+				09EB2D08249EAF29005EF192 /* MontserratAlternates-ExtraBoldItalic.otf */,
+				09EB2D09249EAF29005EF192 /* MontserratAlternates-Italic.otf */,
+				09EB2D0A249EAF29005EF192 /* Montserrat-SemiBold.otf */,
+			);
+			path = UIFonts;
+			sourceTree = "<group>";
+		};
+		09EB2D36249EEC2D005EF192 /* JobSeekerTask */ = {
+			isa = PBXGroup;
+			children = (
+				09EB2D37249EEC3D005EF192 /* TaskAcceptedViewController.swift */,
+			);
+			path = JobSeekerTask;
+			sourceTree = "<group>";
+		};
+		10A30D8766F19E43224EA129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4278066C3FCD09D6F94B96B3 /* Pods-Helping Hands.debug.xcconfig */,
+				39D1FA73AB474F0EB20F8E89 /* Pods-Helping Hands.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13E543382FBF44371766B3E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9923C688F0EFDA1B46D8C38 /* Pods_Helping_Hands.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B011212490C2AC00547C38 /* Helping Hands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B011392490C2B200547C38 /* Build configuration list for PBXNativeTarget "Helping Hands" */;
+			buildPhases = (
+				88C5F5F1AE4C89325AE8E2A4 /* [CP] Check Pods Manifest.lock */,
+				09B0111E2490C2AC00547C38 /* Sources */,
+				09B0111F2490C2AC00547C38 /* Frameworks */,
+				09B011202490C2AC00547C38 /* Resources */,
+				E63937D2E6D8FF465DFF67F9 /* [CP] Embed Pods Frameworks */,
+				EEE0DA4537CA3F06121136A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Helping Hands";
+			productName = "Helping Hands";
+			productReference = 09B011222490C2AC00547C38 /* Helping Hands.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B0111A2490C2AC00547C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "iOS developement";
+				TargetAttributes = {
+					09B011212490C2AC00547C38 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 09B0111D2490C2AC00547C38 /* Build configuration list for PBXProject "Helping Hands" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09B011192490C2AC00547C38;
+			productRefGroup = 09B011232490C2AC00547C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B011212490C2AC00547C38 /* Helping Hands */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B011202490C2AC00547C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B013272490C93B00547C38 /* Main.storyboard in Resources */,
+				09EB2D2F249EAF29005EF192 /* Montserrat-SemiBold.otf in Resources */,
+				09EB2D28249EAF29005EF192 /* MontserratAlternates-Light.otf in Resources */,
+				09EB2D32249ED56B005EF192 /* TaskDetailsTableViewCell.xib in Resources */,
+				09EB2D0F249EAF29005EF192 /* MontserratAlternates-Black.otf in Resources */,
+				09B0131E2490C8C100547C38 /* Roboto-BoldItalic.ttf in Resources */,
+				09EB2D12249EAF29005EF192 /* Montserrat-BoldItalic.otf in Resources */,
+				09EB2D0C249EAF29005EF192 /* Montserrat-Bold.otf in Resources */,
+				09EB2D16249EAF29005EF192 /* MontserratAlternates-MediumItalic.otf in Resources */,
+				09B012032490C58C00547C38 /* ImageCollectionViewCell.xib in Resources */,
+				09B013212490C8C100547C38 /* Roboto-Bold.ttf in Resources */,
+				09EB2D17249EAF29005EF192 /* Montserrat-ExtraLight.otf in Resources */,
+				09EB2D18249EAF29005EF192 /* MontserratAlternates-BlackItalic.otf in Resources */,
+				09EB2D1A249EAF29005EF192 /* MontserratAlternates-ExtraLightItalic.otf in Resources */,
+				09B013182490C8C100547C38 /* Roboto-Regular.ttf in Resources */,
+				09EB2D0D249EAF29005EF192 /* Montserrat-BlackItalic.otf in Resources */,
+				09EB2D1F249EAF29005EF192 /* Montserrat-SemiBoldItalic.otf in Resources */,
+				09EB2D0B249EAF29005EF192 /* Montserrat-MediumItalic.otf in Resources */,
+				09EB2D1B249EAF29005EF192 /* MontserratAlternates-Thin.otf in Resources */,
+				09EB2D29249EAF29005EF192 /* MontserratAlternates-ExtraLight.otf in Resources */,
+				09EB2D2B249EAF29005EF192 /* MontserratAlternates-ThinItalic.otf in Resources */,
+				09B0131D2490C8C100547C38 /* SF-Pro-Text-Bold.otf in Resources */,
+				09EB2D19249EAF29005EF192 /* MontserratAlternates-Bold.otf in Resources */,
+				09B013222490C8C100547C38 /* SF-Pro-Text-Medium.otf in Resources */,
+				09EB2D23249EAF29005EF192 /* Montserrat-Regular.otf in Resources */,
+				09EB2D27249EAF29005EF192 /* Montserrat-ExtraLightItalic.otf in Resources */,
+				09EB2D1C249EAF29005EF192 /* Montserrat-LightItalic.otf in Resources */,
+				09EB2D10249EAF29005EF192 /* MontserratAlternates-LightItalic.otf in Resources */,
+				09EB2D26249EAF29005EF192 /* Montserrat-ExtraBold.otf in Resources */,
+				09B0131A2490C8C100547C38 /* Roboto-MediumItalic.ttf in Resources */,
+				09B013192490C8C100547C38 /* SF-Pro-Display-Bold.otf in Resources */,
+				09EB2D1E249EAF29005EF192 /* MontserratAlternates-SemiBoldItalic.otf in Resources */,
+				09B013172490C8C100547C38 /* Roboto-Light.ttf in Resources */,
+				09A090F324A7F4CC0030D873 /* GoogleService-Info.plist in Resources */,
+				09EB2D25249EAF29005EF192 /* MontserratAlternates-BoldItalic.otf in Resources */,
+				09B013202490C8C100547C38 /* Roboto-Italic.ttf in Resources */,
+				09B0131C2490C8C100547C38 /* SF-Pro-Text-Regular.otf in Resources */,
+				09B011352490C2B200547C38 /* LaunchScreen.storyboard in Resources */,
+				09EB2D13249EAF29005EF192 /* Montserrat-Light.otf in Resources */,
+				09EB2D22249EAF29005EF192 /* MontserratAlternates-SemiBold.otf in Resources */,
+				09EB2D20249EAF29005EF192 /* Montserrat-ExtraBoldItalic.otf in Resources */,
+				09EB2D14249EAF29005EF192 /* Montserrat-ThinItalic.otf in Resources */,
+				09B011322490C2B200547C38 /* Assets.xcassets in Resources */,
+				09EB2D24249EAF29005EF192 /* MontserratAlternates-ExtraBold.otf in Resources */,
+				09EB2D0E249EAF29005EF192 /* SIL Open Font License.txt in Resources */,
+				0965F0ED249EA14000B87171 /* TaskTableViewCell.xib in Resources */,
+				09EB2D1D249EAF29005EF192 /* Montserrat-Medium.otf in Resources */,
+				09B012F52490C8C100547C38 /* Countries.bundle in Resources */,
+				09EB2D21249EAF29005EF192 /* Montserrat-Italic.otf in Resources */,
+				09EB2D2A249EAF29005EF192 /* MontserratAlternates-Regular.otf in Resources */,
+				09EB2D15249EAF29005EF192 /* Montserrat-Thin.otf in Resources */,
+				09EB2D2E249EAF29005EF192 /* MontserratAlternates-Italic.otf in Resources */,
+				09EB2D11249EAF29005EF192 /* MontserratAlternates-Medium.otf in Resources */,
+				09EB2D2D249EAF29005EF192 /* MontserratAlternates-ExtraBoldItalic.otf in Resources */,
+				09EB2D2C249EAF29005EF192 /* Montserrat-Black.otf in Resources */,
+				09B0131F2490C8C100547C38 /* Roboto-LightItalic.ttf in Resources */,
+				09B0131B2490C8C100547C38 /* SF-Pro-Text-Light.otf in Resources */,
+				09B013162490C8C100547C38 /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88C5F5F1AE4C89325AE8E2A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Helping Hands-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63937D2E6D8FF465DFF67F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Helping Hands/Pods-Helping Hands-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Helping Hands/Pods-Helping Hands-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Helping Hands/Pods-Helping Hands-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE0DA4537CA3F06121136A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Helping Hands/Pods-Helping Hands-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Helping Hands/Pods-Helping Hands-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Helping Hands/Pods-Helping Hands-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B0111E2490C2AC00547C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B012052490C58C00547C38 /* ImageCollectionViewCell.swift in Sources */,
+				09B012FA2490C8C100547C38 /* CurrencyCell.swift in Sources */,
+				0965F0DF249E6A0300B87171 /* TaskSuccessfullyAddedViewController.swift in Sources */,
+				09B012E72490C8C100547C38 /* UIView+Extensions.swift in Sources */,
+				09B013122490C8C100547C38 /* Constant.swift in Sources */,
+				09B013092490C8C100547C38 /* UICollectionView+Placeholder.swift in Sources */,
+				09B0130F2490C8C100547C38 /* NSFileManagerClass.swift in Sources */,
+				09B012FB2490C8C100547C38 /* CountryCell.swift in Sources */,
+				09EB2D3A249F3D20005EF192 /* TaskFilterViewController.swift in Sources */,
+				09B013242490C8C100547C38 /* VerticalGradientView.swift in Sources */,
+				09B0112A2490C2AC00547C38 /* ViewController.swift in Sources */,
+				09B012F12490C8C100547C38 /* Locale+Extensions.swift in Sources */,
+				09B012E62490C8C100547C38 /* UIViewController+Extensions.swift in Sources */,
+				09B012FC2490C8C100547C38 /* PickerViewViewController.swift in Sources */,
+				09B012102490C58C00547C38 /* LoginViewController.swift in Sources */,
+				09B012EC2490C8C100547C38 /* UISearchBar+Extensions.swift in Sources */,
+				09B0130B2490C8C100547C38 /* ArrayExtension.swift in Sources */,
+				09B013132490C8C100547C38 /* MessageString.swift in Sources */,
+				09B012E32490C8C100547C38 /* ObjOrder.swift in Sources */,
+				09B012E92490C8C100547C38 /* UITextView+Extensions.swift in Sources */,
+				09C60498249421DD00D26B44 /* JobSeekerHomeViewController.swift in Sources */,
+				0935EB3024A628B50002A3DE /* aboutUsViewController.swift in Sources */,
+				09B013022490C8C100547C38 /* Button.swift in Sources */,
+				09B012EA2490C8C100547C38 /* UIColor+Extensions.swift in Sources */,
+				09B012E52490C8C100547C38 /* UIImageView+Extensions.swift in Sources */,
+				09B012FD2490C8C100547C38 /* DatePickerViewController.swift in Sources */,
+				0935EB2E24A6266F0002A3DE /* SettingsViewController.swift in Sources */,
+				09B012F42490C8C100547C38 /* TextViewController.swift in Sources */,
+				09B012F82490C8C100547C38 /* LocalePickerViewController.swift in Sources */,
+				09B013102490C8C100547C38 /* Viewclass.swift in Sources */,
+				09EB2D33249ED56B005EF192 /* TaskDetailsTableViewCell.swift in Sources */,
+				09B012F02490C8C100547C38 /* Common+Extensions.swift in Sources */,
+				09B013032490C8C100547C38 /* RealmHelper.swift in Sources */,
+				09B012E42490C8C100547C38 /* UISegmentedControl+Extensions.swift in Sources */,
+				09B012F92490C8C100547C38 /* PhoneCodeCell.swift in Sources */,
+				09B012E82490C8C100547C38 /* Date+Extension.swift in Sources */,
+				09B012EF2490C8C100547C38 /* Optional+Extensions.swift in Sources */,
+				09B012FE2490C8C100547C38 /* Label.swift in Sources */,
+				09B012ED2490C8C100547C38 /* UIApplication+Extensions.swift in Sources */,
+				09B0130D2490C8C100547C38 /* AlertView.swift in Sources */,
+				09B012022490C58C00547C38 /* SignupViewController.swift in Sources */,
+				09B0130A2490C8C100547C38 /* StringClass.swift in Sources */,
+				09B013232490C8C100547C38 /* HorizontalGradientView.swift in Sources */,
+				09B012F62490C8C100547C38 /* LocaleStore.swift in Sources */,
+				09B012082490C58C00547C38 /* BaseVC.swift in Sources */,
+				09B011262490C2AC00547C38 /* AppDelegate.swift in Sources */,
+				09B012F72490C8C100547C38 /* LocaleInfo.swift in Sources */,
+				09B012EE2490C8C100547C38 /* UIAlertController+Extensions.swift in Sources */,
+				09B013062490C8C100547C38 /* CustomSearchBar.swift in Sources */,
+				09B013052490C8C100547C38 /* CustomSearchController.swift in Sources */,
+				09B013152490C8C100547C38 /* DefaulValues.swift in Sources */,
+				09B012E22490C8C100547C38 /* ObjIng.swift in Sources */,
+				09B013002490C8C100547C38 /* GradientSlider.swift in Sources */,
+				0965F0E4249E9EF500B87171 /* TaskListViewController.swift in Sources */,
+				09B013012490C8C100547C38 /* TextField.swift in Sources */,
+				09EB2D38249EEC3D005EF192 /* TaskAcceptedViewController.swift in Sources */,
+				09C6049B24942BD300D26B44 /* CategoryViewController.swift in Sources */,
+				09B013042490C8C100547C38 /* NSThreadClass.swift in Sources */,
+				09B011302490C2AC00547C38 /* Helping_Hands.xcdatamodeld in Sources */,
+				09B012F32490C8C100547C38 /* AttributedTextBlock.swift in Sources */,
+				09B012F22490C8C100547C38 /* UITextField+Extensions.swift in Sources */,
+				090BF00C2494172900D98E7B /* CompanyHomeViewController.swift in Sources */,
+				09B012E12490C8C100547C38 /* RObjUser.swift in Sources */,
+				09EB2D35249ED586005EF192 /* TaskDetailsViewController.swift in Sources */,
+				09B012FF2490C8C100547C38 /* SegmentedControl.swift in Sources */,
+				0965F0EC249EA14000B87171 /* TaskTableViewCell.swift in Sources */,
+				0935EB3224A62B8E0002A3DE /* ProfileViewController.swift in Sources */,
+				09B013252490C8C100547C38 /* RadialGradientView.swift in Sources */,
+				09B013112490C8C100547C38 /* UINavigationController+Animation.swift in Sources */,
+				09B013072490C8C100547C38 /* DateFormats.swift in Sources */,
+				0935EB3424A7C7480002A3DE /* ProfileSuccessViewController.swift in Sources */,
+				09B012EB2490C8C100547C38 /* UIImage+Extensions.swift in Sources */,
+				09C604A12495279900D26B44 /* AddTaskViewController.swift in Sources */,
+				09B013082490C8C100547C38 /* NumberExtension.swift in Sources */,
+				09B0130E2490C8C100547C38 /* UIImageColor.swift in Sources */,
+				09B0130C2490C8C100547C38 /* UITableView+Placeholder.swift in Sources */,
+				09B013142490C8C100547C38 /* HelperFunction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09B011332490C2B200547C38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B011342490C2B200547C38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09B011372490C2B200547C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09B011382490C2B200547C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B0113A2490C2B200547C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4278066C3FCD09D6F94B96B3 /* Pods-Helping Hands.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Helping Hands/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Helping-Hands";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09B0113B2490C2B200547C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D1FA73AB474F0EB20F8E89 /* Pods-Helping Hands.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Helping Hands/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Helping-Hands";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B0111D2490C2AC00547C38 /* Build configuration list for PBXProject "Helping Hands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B011372490C2B200547C38 /* Debug */,
+				09B011382490C2B200547C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B011392490C2B200547C38 /* Build configuration list for PBXNativeTarget "Helping Hands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B0113A2490C2B200547C38 /* Debug */,
+				09B0113B2490C2B200547C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09B0112E2490C2AC00547C38 /* Helping_Hands.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09B0112F2490C2AC00547C38 /* Helping_Hands.xcdatamodel */,
+			);
+			currentVersion = 09B0112F2490C2AC00547C38 /* Helping_Hands.xcdatamodel */;
+			path = Helping_Hands.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09B0111A2490C2AC00547C38 /* Project object */;
+}
